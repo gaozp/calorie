@@ -231,10 +231,11 @@ class PersonInfoState extends State<PersonInfoPage>{
           color: Theme
               .of(context)
               .primaryColor,
-          child: new Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              mainAxisSize: MainAxisSize.min,
-              children: <Widget>[
+          child:
+// new Column(
+//              mainAxisAlignment: MainAxisAlignment.center,
+//              mainAxisSize: MainAxisSize.min,
+//              children: <Widget>[
                 new Card(
                   elevation: 5.0,
               shape: new RoundedRectangleBorder(
@@ -266,16 +267,16 @@ class PersonInfoState extends State<PersonInfoPage>{
 //                  child:,
               ),
             ),
-              new PageIndicator(
-                layout: PageIndicatorLayout.WARM,
-                size: 20.0,
-                controller: _pageController,
-                space: 5.0,
-                count: 4,
-              )
-          ]
+//              new PageIndicator(
+//                layout: PageIndicatorLayout.WARM,
+//                size: 20.0,
+//                controller: _pageController,
+//                space: 5.0,
+//                count: 4,
+//              )
+//          ]
 
-          ),
+//          ),
         ),
       );
     });
